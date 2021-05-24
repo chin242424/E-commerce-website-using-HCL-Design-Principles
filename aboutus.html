@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+     <header role="banner">
+      <div class="homeheader">
+
+        <img
+          src="https://cdn.glitch.com/f6224476-c886-40d1-b951-cb6ffd6ea3f8%2FNorthridge%20Farms%20Logo%20(2).png?v=1588371426529"
+          width="370"
+          height="140"
+          class="float" alt="Northridge Organic logo"
+        />
+        <br><br>
+
+        <div class="search-container">
+          <label>Search</label>
+       <input type = "text" placeholder = "Products" >
+          <a href="products.html">
+            <button type="submit">Submit</button></a>
+        </div>
+          <div class = "headerbuttonposition">
+            <a href="signin.html">
+        <button id="myButton6" class="myButton1">
+          Sign In
+        </button>   
+          </a>
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            
+            <a href="cart.html">
+        <button id="myButton7" class="myButton1">
+          Cart
+        </button>
+            </a>
+        </div>
+      </div>
+      <hr />
+      <nav role="navigation">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="index.html" title="home" >Home</a>
+            </li>
+            <li>
+              <a href="products.html" title="Products">Products</a>
+            </li>
+            <li><a href="aboutus.html" title="Offers" class="active">About us</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <h2>
+      About Us
+    </h2>
+    <p>
+      <b>We sell only organic food.</b>Northridge Organic is the smarter way to shop for food. We've hired top food experts, built the perfect environment for the food and found the shortest distance from farms, dairies and fisheries to your table. We have all the irresistibly fresh foods you could want, plus popular grocery brands, all for less than you might be paying now. And we bring it right to your door.
+    </p>
+
+    <h2>Meet the people behind Northridge Organic</h2>
+    <details>
+      <summary>Click here to see the details</summary>
+      <h3>
+        Tom Cruise - Founder - Lead Nutrionist
+      </h3>
+
+      <img
+        src="https://cdn.glitch.com/774d7aec-3375-4201-80d5-6a8f97368faf%2Fcontact1.jpg?v=1582488108554"
+        alt="Tom Cruise"
+        width="120"
+        height="130"
+        class="flowcontact"
+      />
+      <p>
+        Tom is not only the founder of Northridge Organic, but also a practicing lifestyle counselor passionate with helping you succeed. In 2001 he completed a Master’s degree in Human Nutrition from Arizona State University, with a focus in lifestyle and behavior changes. Tom has  several other certifications, including Childhood and Adolescent Weight Management, and is a Certified Health and Wellness Coach.<br /><br /><br /><br />
+      </p>
+      <hr />
+      <h3>
+        Brad Pitt - Co - Founder
+      </h3>
+
+      <img
+        src="https://cdn.glitch.com/774d7aec-3375-4201-80d5-6a8f97368faf%2Fcontact2.jpg?v=1582489325955"
+        alt="Brad Pitt"
+        width="120"
+        height="120"
+        class="flowcontact"
+      />
+      <p>
+        Brad graduated from the University of Arizona with her B.S. in Nutritional Sciences. He attended Texas A & M University where he completed her dietetic internship as well as a M.S. in Nutrition. He is a Certified Diabetes Educator (CDE) and is trained on the use of a low FODMAP diet for IBS by Monash University.<br /><br /><br /><br />
+      </p>
+      
+      <hr />
+      <h3>
+        Scarlett Johansson - Director
+      </h3>
+
+      <img
+        src="https://cdn.glitch.com/774d7aec-3375-4201-80d5-6a8f97368faf%2Fcontact5.jpg?v=1582489364934"
+        alt="Scarlett Johansson"
+        width="120"
+        height="120"
+        class="flowcontact"
+      />
+      <p>
+        Scarlett J. Hines is a Dietitian Officer with the United States Public Health Service Commissioned Corps. She holds a Bachelor of Science in Biology from Mercer University and a Master’s degree in Nutritional Sciences from South Carolina State University. Her professional experience includes nutrition counseling and education of Native American populations, food service and clinical nutrition management, public health nutrition, and regulatory.
+      </p>
+      <br /><br />
+     
+  
+
+    </details>
+    <footer role="contentinfo">
+      <p></p>
+      <h1>Store Address</h1>
+      <h3>18111 Nordhoff Street, Northridge CA 91330</h3>
+      <h1>Contact Us</h1>
+      <h3>
+        Call <span>1-800-000-0001</span> or mail us at<span
+          >customercare@hearthis.com</span
+        ><br />Thank you for visiting NorthridgeOrganic.com
+      </h3>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-2.2.1.min.js"
+      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+      crossorigin="anonymous"
+    ></script>
+    
+    <script>
+    $('.message a').click(function(){
+    $('form').animate({height:"toggle", opacity:"toggle"}, "slow");
+    });
+    </script>
+  </body>
+</html>

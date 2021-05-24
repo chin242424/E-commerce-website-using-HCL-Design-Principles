@@ -1,0 +1,399 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+
+
+.offersection{
+/*border:5px solid red;*/
+height:570px;
+width:1400px;
+}
+
+/*The homesection is not working but has helped to move offer section above */
+.homesection{
+/*border:5px solid blue;*/
+height:700px;
+width:1400px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+
+   *, *::before, *::after {
+            box-sizing: inherit;
+ }
+    
+.homeheader{
+  /* border: 5px solid green;*/
+  height: 200px;
+}
+
+.headerbuttonposition {
+  
+  /*border: 5px solid black;*/
+  position:relative;
+  top: -150px;
+  left:77%;
+  width:300px;
+  text-decoration:none;
+}
+
+
+.headerbuttonposition a{
+text-decoration:none;
+}
+
+.search-container input[type=text]{
+  padding: 6px;
+  margin-top: 110px;
+  margin-right: 16px;
+  background: white;
+  font-size: 17px;
+  border: 2px solid black;
+  cursor: pointer;
+  width:40%;
+}
+
+.search-container button
+{
+ 
+  box-shadow: 8px 7px 0px 0px #9e929e;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:4px solid #706270;
+	display:inline-block;
+	cursor:pointer;
+	color:#4F4F4F;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:1px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.myButton1 {
+	box-shadow:inset 0px 0px 0px 0px #ac0073;
+	background:linear-gradient(to bottom, #ac0073 5%, #5c0944 100%);
+	background-color:#ac0073;
+	border-radius:7px;
+	border:1px solid #ac0073;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b23e35;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #5c0944 5%, #ac0073 100%);
+	background-color:#5c0944;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+body {
+  font-family: "Open Sans";
+
+  background-color: white;
+}
+p {
+  text-align:justify;
+  padding-bottom:50px;
+}
+
+pricestyle{
+padding-top:70px;
+}
+
+.oldprice{
+  color: brown;
+  font-weight: 500;
+  font-size: 1rem;
+  text-decoration: line-through;
+  position: absolute;
+  top: 18rem;
+  left: 11rem;
+}
+  
+  .discount
+  {
+  transform:rotate(30deg);
+  color: red;
+  font-weight: 800;
+  font-size: 1rem;
+  position: absolute;
+  top: 10rem;
+  left: 11rem;
+  }
+  /*
+  
+  
+}
+
+
+descstyle{
+text-align:justify;
+}
+*/
+h1 {
+  color: #bc097e; /*pinkish*/ 
+  font-family: "Krona One";
+  font-weight: normal;
+  text-align: right;
+}     
+
+
+
+.nav ul {     /* set the color and size specifications to navigation bar */
+  list-style: none;
+  background: #075C5F; /*bluish#0e8e9b*/
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.nav li {
+  display: inline-block; /*Arranges the list items in one line*/
+}
+
+.nav a { /* the text specifications in navigation bar , also to make it appear as one block*/
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  display: block;
+  padding: 20px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+.nav a:hover { /* will change to below specifications on hover */
+  background: white; /* change background from blue to white on hover*/
+  color: #ac0072; //*font to pinkish*/
+}
+
+        
+#products{
+            display:grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 1rem;
+            flex:1 1 auto;
+           /* border: 5px solid green;*/
+        }
+        
+#cart{
+            flex: 1 1 20%;
+        }
+        .card{
+            border: 1px solid #999;
+            padding: 1rem;
+            box-sizing: content-box;
+            max-width: 500px;
+            position: relative;
+        }
+        .card img{
+            width: 100%;
+            height:250px;
+           /* filter: contrast(0.3); grey shade*/
+        }
+        .card .price{
+            position: absolute;
+            top: 12rem;
+            left: 10rem;/*
+            transform: rotate(30deg);*/
+            text-shadow:1px 1px 1px #333;
+            /*text-shadow: 2px 2px 2px #333, 1px 1px 2px #eee;*/
+            color: brown;/*#bada55*/
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .card h2{
+            font-size: 1.2rem;
+        }
+        .card p{
+            font-size: 0.8rem;
+        }
+      
+.card .btn{
+            width: 180px;/*Changed from 100 to 120 */
+      /*margin-right: 10px;*/
+      text-align:center;
+      display: inline-block;
+      /*float: left;*/
+    padding-left:30px;
+    font-size:25px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+        }
+
+/*
+.button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    
+  }
+*/
+
+
+
+        
+        .cart-item{
+            border-bottom: 1px solid #666;
+            padding:1rem;
+            width: 100%;
+            position: relative;
+        }
+        .cart-item .price{
+            /*position: relative;*/
+           /* top: 1rem;
+            bottom: 1rem;
+            right: 1rem;
+            left : 50rem;*/
+            width: 70%;
+            font-size: 2.5rem;
+            color: #ac0072;
+            /*transform: rotate(30deg);*/
+        }
+        .cart-item .title{
+            font-size: 1rem;
+            color: black;
+            line-height: 1.5rem;
+            height: 1.5rem;
+            width: 70%;
+        }
+        .cart-item .controls{
+            height: 2rem;
+            cursor: pointer;
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            background-color: #eee;
+        }
+        .cart-item span:nth-child(1),
+        .cart-item span:nth-child(3){
+            border: 3px solid black;
+            color: black;
+            background: #fff;
+            font-size: 1rem;
+            line-height: 2rem;
+            padding: 0 0.5rem;
+            display: block;
+        }
+
+footer h1{
+  text-align: center;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+}
+footer h3 {
+  color: #0e8e9b; /*bluish*/
+}
+footer h3 span { /*used to set specific colors for footers*/
+  color: #bc097e;
+}
+
+.float {
+  float: left;
+}
+
+
+.active {
+  background-color: #ac0072;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  font-size:2em;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.delivery_button {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  background-color: #1e2835;
+  border-color: #404853;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}
+
+.delivery_button2 {
+  width: 180px;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  font-size: 25px;
+  background-color: #1e2835;
+  border-color: #404853;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}

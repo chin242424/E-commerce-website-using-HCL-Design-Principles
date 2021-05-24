@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style_profile.css">
+  <script src="script_profile.js"></script>
+	<title>Profile Section</title>
+</head>
+<body>
+  
+   <header role="banner">
+      <div class="homeheader">
+        <img
+          src="https://cdn.glitch.com/f6224476-c886-40d1-b951-cb6ffd6ea3f8%2FNorthridge%20Farms%20Logo%20(2).png?v=1588371426529"
+          width="370"
+          height="140"
+          class="float"
+          alt="Northridge Organic logo"
+        />
+        <br /><br />
+
+       <div class="search-container">
+          <label><b>Search</b></label>
+          <input type="text" placeholder="Products" />
+          <a href="products.html">
+            <button type="submit"><label>Submit</label></button></a>
+          </div>
+        
+        <div class="headerbuttonposition">
+          <a href="signin.html">
+            <button id="myButton6" class="myButton1">
+              Sign In
+            </button>
+          </a>
+          <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+          <a href="cart.html">
+            <button id="myButton7" class="myButton1">
+              Cart
+            </button>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <nav role="navigation">
+        <div class="nav" id="navhere">
+          <ul>
+            <li>
+              <a href="index.html" title="home" class="active">Home</a>
+            </li>
+            <li>
+              <a href="products.html" title="Products">Products</a>
+            </li>
+            <li><a href="aboutus.html" title="Offers">About us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+  <section>
+         <div class="homesection">
+       
+      <form class="submission-form" method="post" name="Form" onsubmit="return validateForm()" action="">
+
+        
+        <h1>Profile</h1>
+
+        <label for="firstName">First Name:</label>
+        <input name="fname" id="firstName" type="text">
+        <br>
+        
+        <label for="lastName">Last Name:</label>
+        <input name="lname" id="lastName" type="text">
+        <br>
+
+        <label for="eMail">E-Mail:</label>
+        <input name="email" id="eMail" type="text">
+        <br>
+        
+        <label for="bdaydropdown">Birthday:</label>
+        <div class="bdaydropdown">
+        <select name="Month" id="month">
+          
+   <option></option>         
+  <option>Month</option>      
+  <option>Jan</option>
+  <option>Feb</option>
+  <option>Mar</option>
+  <option>Apr</option>
+  <option>May</option>
+  <option>Jun</option>
+  <option>Jul</option>
+  <option>Aug</option>
+  <option>Sep</option>
+  <option>Oct</option>
+  <option>Nov</option>
+  <option>Dec</option>
+
+  </select>
+
+  <select id="day" name="Day">
+
+  <option></option>
+  <option>Day</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+  <option>7</option>
+  <option>8</option>
+  <option>9</option>
+  <option>10</option>
+  <option>11</option>
+  <option>12</option>
+  <option>13</option>
+  <option>14</option>
+  <option>15</option>
+  <option>16</option>
+  <option>17</option>
+  <option>18</option>
+  <option>19</option>
+  <option>20</option>
+  <option>21</option>
+  <option>22</option>
+  <option>23</option>
+  <option>24</option>
+  <option>25</option>
+  <option>26</option>
+  <option>27</option>
+  <option>28</option>
+  <option>29</option>
+  <option>30</option>
+  <option>31</option>
+
+</select>
+
+  <select id="year" name="Year">
+    
+<option></option>
+<option>Year</option>
+<option>2020</option>
+<option>2019</option>
+<option>2018</option>
+<option>2017</option>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2013</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+<option>2000</option>
+<option>1999</option>
+<option>1998</option>
+<option>1997</option>
+<option>1996</option>
+<option>1995</option>
+<option>1994</option>
+<option>1993</option>
+<option>1992</option>
+<option>1991</option>
+<option>1990</option>
+<option>1989</option>
+<option>1988</option>
+<option>1987</option>
+<option>1986</option>
+<option>1985</option>
+<option>1984</option>
+<option>1983</option>
+<option>1982</option>
+<option>1981</option>
+<option>1980</option>
+<option>1979</option>
+<option>1978</option>
+<option>1977</option>
+<option>1976</option>
+<option>1975</option>
+<option>1974</option>
+<option>1973</option>
+<option>1972</option>
+<option>1971</option>
+<option>1970</option>
+<option>1969</option>
+<option>1968</option>
+<option>1967</option>
+<option>1966</option>
+<option>1965</option>
+<option>1964</option>
+<option>1963</option>
+<option>1962</option>
+<option>1961</option>
+<option>1960</option>
+<option>1959</option>
+<option>1958</option>
+<option>1957</option>
+<option>1956</option>
+<option>1955</option>
+<option>1954</option>
+<option>1953</option>
+<option>1952</option>
+<option>1951</option>
+<option>1950</option>
+<option>1949</option>
+<option>1948</option>
+<option>1947</option>
+<option>1946</option>
+<option>1945</option>
+<option>1944</option>
+<option>1943</option>
+<option>1942</option>
+<option>1941</option>
+<option>1940</option>
+<option>1939</option>
+<option>1938</option>
+<option>1937</option>
+<option>1936</option>
+<option>1935</option>
+<option>1934</option>
+<option>1933</option>
+<option>1932</option>
+<option>1931</option>
+<option>1930</option>
+<option>1929</option>
+<option>1928</option>
+<option>1927</option>
+<option>1926</option>
+<option>1925</option>
+<option>1924</option>
+<option>1923</option>
+<option>1922</option>
+<option>1921</option>
+<option>1920</option>
+<option>1919</option>
+<option>1918</option>
+<option>1917</option>
+<option>1916</option>
+<option>1915</option>
+<option>1914</option>
+<option>1913</option>
+<option>1912</option>
+<option>1911</option>
+<option>1910</option>
+<option>1909</option>
+<option>1908</option>
+<option>1907</option>
+<option>1906</option>
+<option>1905</option>
+<option>1904</option>
+<option>1903</option>
+<option>1902</option>
+<option>1901</option>
+<option>1900</option>
+
+
+        </select>
+    </div>
+
+  <label for="Gender">Gender:</label>
+  <input name="Gender" id= "male" type="radio" value="Male">
+  <label for="Male">Male</label>
+
+  <input name="Gender" id= "female" type="radio" value="Female">
+  <label for="Female">Female</label>
+
+  <input name="Gender" id= "other" type="radio" value="Other">
+  <label for="Other">Other</label>
+
+  <br><br>
+
+  <label for="Marital Status">Marital Status:</label>
+
+  <input name="Marital Status" id= "single" type="radio" value="Single">
+  <label for="Single">Single</label>
+
+  <input name="Marital Status" id= "married" type="radio" value="Married">
+  <label for="Married">Married</label>
+
+  <br><br>
+
+  <label for="BMI">BMI:</label>
+  <select id="bmidropdown" name="BMI">
+
+  <option></option>
+  <option>20.0</option>
+  <option>20.1</option>
+  <option>20.2</option>
+  <option>20.3</option>
+  <option>20.4</option>
+  <option>20.5</option>
+  <option>20.6</option>
+  <option>20.7</option>
+  <option>20.8</option>
+  <option>20.9</option>
+  <option>21.0</option>
+  <option>21.1</option>
+  <option>21.2</option>
+  <option>21.3</option>
+  <option>21.4</option>
+  <option>21.5</option>
+  <option>21.6</option>
+  <option>21.7</option>
+  <option>21.8</option>
+  <option>21.9</option>
+  <option>22.0</option>
+  <option>22.1</option>
+  <option>22.2</option>
+  <option>22.3</option>
+  <option>22.4</option>
+  <option>22.5</option>
+  <option>22.6</option>
+  <option>22.7</option>
+  <option>22.8</option>
+  <option>22.9</option>
+  <option>23.0</option>
+  <option>23.1</option>
+  <option>23.2</option>
+  <option>23.3</option>
+  <option>23.4</option>
+  <option>23.5</option>
+  <option>23.6</option>
+  <option>23.7</option>
+  <option>23.8</option>
+  <option>23.9</option>
+  <option>24.0</option>
+  <option>24.1</option>
+  <option>24.2</option>
+  <option>24.3</option>
+  <option>24.4</option>
+  <option>24.5</option>
+  <option>24.6</option>
+  <option>24.7</option>
+  <option>24.8</option>
+  <option>24.9</option>
+  <option>25.0</option>
+  <option>25.1</option>
+  <option>25.2</option>
+  <option>25.3</option>
+  <option>25.4</option>
+  <option>25.5</option>
+  <option>25.6</option>
+  <option>25.7</option>
+  <option>25.8</option>
+  <option>25.9</option>
+  <option>26.0</option>
+
+</select>
+
+<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/english_bmi_calculator/bmi_calculator.html" target="_blank">Open BMI calculator</a>
+
+<div class="formButtons">
+<a href="products.html#products2">
+  <button type="submit" id="submit-button" style="float: right;">Submit</button></a>
+<button onclick="window.location = 'index.html';" type="button" id="cancel-button" style="float: right;">Cancel</button>
+
+	</div>
+
+       
+      </form>
+
+      </div>
+
+    </section>
+   
+  <div class ="footerfix">
+    
+  
+  <footer role="contentinfo">
+      <div class="footersection">
+        <h1>
+          Store Address
+        </h1>
+        <h3>
+          18111 Nordhoff Street, Northridge CA 91330
+        </h3>
+
+        <h1>
+          Contact Us
+        </h1>
+        <h3>
+          Call <span>1-800-000-0001</span> or mail us at
+          <span>customercare@northridgeorganic.com</span><br />
+          Thank you for visiting NorthridgeOrganic.com
+        </h3>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Checkout page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style_delivery.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="/script_delivery.js" defer></script>
+  </head>  
+  <body>
+     <header role="banner">
+      <div class="homeheader">
+
+        <img
+          src="https://cdn.glitch.com/f6224476-c886-40d1-b951-cb6ffd6ea3f8%2FNorthridge%20Farms%20Logo%20(2).png?v=1588371426529"
+          width="370"
+          height="140"
+          class="float" alt="Northridge Organic logo"
+        />
+        <br><br>
+
+        <div class="search-container">
+          <label>Search</label>
+       <input type = "text" placeholder = "Products" >
+          <a href="products.html">
+            <button type="submit">Submit</button></a>
+        </div>
+          <div class = "headerbuttonposition">
+            <a href="#">
+        <button id="myButton6" class="myButton1">
+          Account
+        </button>   
+          </a>
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            
+            <a href="cart.html">
+        <button id="myButton7" class="myButton1">
+          Cart
+        </button>
+            </a>
+        </div>
+      </div>
+      <hr />
+      <nav role="navigation">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="index.html" title="home">Home</a>
+            </li>
+            <li>
+              <a href="products.html" title="Products">Products</a>
+            </li>
+            <li><a href="aboutus.html" title="Offers">About us</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    
+    <table border="1" cellspacing="1" cellpadding="5" summary="A detailed summary of all the items ordered by the user" align="right">
+        <caption>
+        <h3 id="char"> Order Summary</h3>
+        </caption>
+        <tr>
+          <th scope="col">Items</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+        </tr>
+        <tr>
+          <td class="center">Candy Heart Grapes</td>
+          <td>2 lb</td>
+          <td><b>$ 3.49</b></td>
+        </tr>
+        <tr>
+          <td class="center">Grape Tomatoes</td>
+          <td>1 lb</td>
+          <td><b>$ 2.99</b></td>
+        </tr>
+        <tr>
+          <td class="center">Kitchen eggplant parmesan kit</td>
+          <td>8 lb</td>
+          <td><b>$ 15.99</b></td>
+        </tr>
+        
+        <tr>
+          <td class="center"><b>sub Total</b></td>
+          <td><b></b></td>
+          <td><b>$ 22.47</b></td>
+        </tr>
+    
+        <tr>
+          <td class="center" colspan="3"><b>Scheduled Delivery</b></td>
+        </tr>
+         <tr>
+          
+          <td>Date</td>
+          <td colspan="2"><b>5/10/2020</b></td>
+        </tr>
+      <tr>
+          
+          <td>Time</td>
+          <td colspan="2"><b>1 pm to 5 pm</b></td>
+        </tr>
+      <tr>
+          <td>Instructions for delivery</td>
+          <td colspan="2"><b> drop it at the entrance</b></td>
+        </tr>
+      
+    
+      <tr>
+          <td class="center" colspan="2">Sub Total</td>
+          
+          <td><b>$ 22.47</b></td>
+        </tr>
+      <tr>
+          <td class="center" colspan="2">Taxes</td>
+          
+          <td><b>$ 3.47</b></td>
+        </tr>
+      <tr>
+          <td class="center" colspan="2">Delivery Charge</td>
+         
+          <td><b>$ 2</b></td>
+        </tr>
+      <tr>
+          <td class="center" colspan="2"><b>Final Total</b></td>
+          
+          <td><b>$ 27.94</b></td>
+        </tr>
+    </table>
+    
+    <br>
+    <h2>
+      Choose a payment option
+    </h2>
+    
+    <p>
+      Choose one payment option from below.
+    </p>
+    <div class="radio_buttons">
+      
+    
+    <input name ="only1" id="PayPal" type= "radio" value = "PayPal"> <b>Paypal</b> <i class="fab fa-paypal"></i><br>
+    
+    <br>
+    <input name ="only1" id="GooglePay" type= "radio" value = "Google Pay"> <b>Amazon Pay</b><i class="fab fa-amazon-pay"></i> <br>
+    
+    <br>
+    <input name ="only1" id="Credit" type= "radio" value = "Credit/Debit Card"> <b>Credit/Debit Card</b> <i class="far fa-credit-card"></i>  </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="delivery_button1" id="backbutton_products" onclick="fn2()">
+      Back
+    </button>
+    
+     <button class="delivery_button1" id="nextbutton_delivery" onclick="fn7()">
+      Pay
+    </button>
+    
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br><br>
+    <br>
+    <br><br><br>
+    <br>
+    <br><br>
+    
+    <footer role="contentinfo">
+      <div class="footersection">
+        <h1>
+          Store Address
+        </h1>
+        <h3>
+          18111 Nordhoff Street, Northridge CA 91330
+        </h3>
+
+        <h1>
+          Contact Us
+        </h1>
+        <h3>
+          Call <span>1-800-000-0001</span> or mail us at
+          <span>customercare@northridgeorganic.com</span><br />
+          Thank you for visiting NorthridgeOrganic.com
+        </h3>
+      </div>
+    </footer>
+    
+    
+    <script src="https://button.glitch.me/button.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.1.min.js"
+      integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+      crossorigin="anonymous"></script>
+  </body>
+</html>

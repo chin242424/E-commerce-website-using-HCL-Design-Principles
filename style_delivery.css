@@ -1,0 +1,360 @@
+/* CSS files add styling rules to your content */
+
+
+.instructions_form input {
+  width: 500px;
+}
+
+.Scheduled_form input {
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  .button-container {
+    margin-top:20px;
+  }
+  
+
+.homesection{
+ border: 5px solid red;
+height: 400px;
+width:1400px;
+}
+
+
+
+.headerbuttonposition {
+  
+  /*border: 5px solid black;*/
+  position:relative;
+  top: -150px;
+  left:77%;
+  width:300px;
+  text-decoration:none;
+}
+
+
+.headerbuttonposition a{
+text-decoration:none;
+}
+.search-container input[type=text]{
+  padding: 6px;
+  margin-top: 110px;
+  margin-right: 16px;
+  background: #ffffff;
+  font-size: 17px;
+  border: 2px solid black;
+  cursor: pointer;
+  width:40%;
+}
+
+.search-container button
+{
+ 
+  box-shadow: 8px 7px 0px 0px #9e929e;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:42px;
+	border:4px solid #706270;
+	display:inline-block;
+	cursor:pointer;
+	color:#4F4F4F;
+	font-family:'Alex Brush', cursive;
+	font-size:30px;
+	font-weight:bold;
+	padding:1px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton1 {
+	box-shadow:inset 0px 0px 0px 0px #ac0073;
+	background:linear-gradient(to bottom, #ac0073 5%, #5c0944 100%);
+	background-color:#ac0073;
+	border-radius:7px;
+	border:1px solid #ac0073;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b23e35;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #5c0944 5%, #ac0073 100%);
+	background-color:#5c0944;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*.footersection{
+  border: 5px solid green;
+} */
+
+.homebestsellingsection{
+border: 5px solid gold;
+height: 650px;
+}
+
+.column-narrow {
+  /* Question 6a,6b,6c 6d */
+  width: 30%;
+  float: left;
+height: 300px;
+  border: 5px solid black;
+}
+
+.column-wide {
+  /* Question 6a,6e */
+  width: 68%;
+  float: right;
+height: 300px;
+  border: 5px solid black;
+}
+
+
+
+body {
+  font-family: "Open Sans";
+
+  background-color: white;
+}
+p {
+  text-align: justify;
+}
+h1 {
+  color: #bc097e; /*pinkish*/ 
+  font-family: "Krona One";
+  font-weight: normal;
+  text-align: right;
+}
+
+.flowcenter { /* used this to align all images  except "About Us" to the left */
+  padding-left:60px;
+  font-style: italic;
+  
+  color: black;
+}
+.flowcontact { /* used this to align all images on the About page to the left */
+  float: left;
+  padding-right: 30px;
+}
+
+h3 {
+  color: #bc097e;
+}
+
+.temp { /* used to highlight bullet points on all pages */
+  background: #DCCCFF; /*bluish*/
+  padding: 1em;
+}
+
+h2 {
+  color: #bc097e; /*pinkish*/
+  font-family: "Krona One";
+}
+
+.nav ul {     /* set the color and size specifications to navigation bar */
+  list-style: none;
+  background: #075C5F; /*bluish#0e8e9b*/
+  text-align: center;
+  padding: 0px;
+  margin: 0;
+}
+.nav li {
+  display: inline-block; /*Arranges the list items in one line*/
+}
+
+.nav a { /* the text specifications in navigation bar , also to make it appear as one block*/
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  display: block;
+  padding: 20px;
+  font-size: 17px;
+  font-family: Helvetica;
+}
+
+.nav a:hover { /* will change to below specifications on hover */
+  background: white; /* change background from blue to white on hover*/
+  color: #ac0072; //*font to pinkish*/
+}
+
+aside {
+  padding: 1em;
+  background: #0e8e9b;
+  color: white;
+  margin-bottom: 1em;
+}
+
+aside h3 {
+  color: white;
+}
+aside p a {
+  color: #bc097e;
+}
+footer p {
+  text-align: center;
+}
+footer {
+  border-top: 1px solid gray;
+  text-align: center;
+}
+footer h3 {
+  color: #0e8e9b; /*bluish*/
+}
+footer h3 span { /*used to set specific colors for footers*/
+  color: #bc097e;
+}
+.imp { /* used to highlight specific content on Batteries and Phone pages */
+  background: #FDD184;
+  padding: 1em;
+}
+
+
+
+
+/*The changes from here are made by Akshay*/
+.login-page {
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: darkblue;
+  max-width: 360px;
+  margin: 0 auto 100px; 
+  padding: 45px;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,.form button:active {
+  background: #43A047;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: white;
+  font-size: 12px;
+}
+
+.form .message a{
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.form .register-form {
+  display: none;
+}
+
+.float {
+  float: left;
+}
+/*The changes till here are made by Akshay*/
+
+.footersection h1 {
+  text-align: center;
+}
+
+.delivery_button {
+  width: 180px;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  font-size: 25px;
+  background-color: #1e2835;
+  border-color: #404853;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}
+
+.delivery_button1 {
+  width: 180px;
+  padding: 5px;
+  margin-right: 50px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  font-size: 25px;
+  background-color: #1e2835;
+  border-color: #404853;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #fafafa;
+}
+
+table {
+  margin-right: 100px;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+
+.radio_buttons {
+  font-size: 18px;
+  position: relative;
+  left: 40px;
+}
+
+.homeheader{
+  /* border: 5px solid green;*/
+  height: 200px;
+}
+
+input[type=radio]{
+  font-size: 18px;
+  outline: 2px solid black;
+   border-radius:100%;
+}

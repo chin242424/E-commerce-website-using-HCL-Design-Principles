@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/temp.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/temp.js" defer></script>
+  </head>
+  <body>
+     <header role="banner">
+      <div class="homeheader">
+
+        <img
+          src="https://cdn.glitch.com/f6224476-c886-40d1-b951-cb6ffd6ea3f8%2FNorthridge%20Farms%20Logo%20(2).png?v=1588371426529"
+          width="370"
+          height="140"
+          class="float" alt="Northridge Organic logo"
+        />
+        <br><br>
+
+        <div class="search-container">
+          <label>Search</label>
+       <input type = "text" placeholder = "Products" >
+          <a href="products.html">
+            <button type="submit">Submit</button></a>
+        </div>
+          <div class = "headerbuttonposition">
+            <a href="signin.html">
+        <button id="myButton6" class="myButton1">
+          Sign In
+        </button>   
+          </a>
+            <span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            
+            <a href="cart.html">
+        <button id="myButton7" class="myButton1">
+          Cart
+        </button>
+            </a>
+        </div>
+      </div>
+      <hr />
+      <nav role="navigation">
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="index.html" title="home" >Home</a>
+            </li>
+            <li>
+              <a href="products.html" title="Products" class="active">Products</a>
+            </li>
+            <li><a href="aboutus.html" title="Offers">About us</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    
+    
+    <section class="homesection" id="products"></section>
+       
+    <div class="offersection" id="products1"></div><!--Offers Section*/-->
+    <div class="offersection" id="products2"></div><!--family Section*/-->
+    <!--f<div class="offersection" id="products3">Products Section</div>-->
+   <!-- <section id="cart"></section>-->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Item has been added to cart</p>
+  </div>
+
+</div>
+   <!-- <br>
+    <br>
+    <br>
+    <div class="checkoutbtnjugaad">
+      <button id="backbutton_delivery" onclick="fn2()"> Checkout </button>
+    </div>-->
+    <footer role="contentinfo">
+      <div class="footersection">
+        <h1>
+          Store Address
+        </h1>
+        <h3>
+          18111 Nordhoff Street, Northridge CA 91330
+        </h3>
+
+        <h1>
+          Contact Us
+        </h1>
+        <h3>
+          Call <span>1-800-000-0001</span> or mail us at
+          <span>customercare@northridgeorganic.com</span><br />
+          Thank you for visiting NorthridgeOrganic.com
+        </h3>
+      </div>
+    </footer>    
+  </body>
+</html>
